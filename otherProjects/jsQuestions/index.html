@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Js Questions </title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+<h1> Week 2 Homework Questions</h1>
+            <p>
+            
+            1.Bootsrap grid system provides a quick and easy way to create responsive website layouts. Its awesome
+
+because it saves you a lot of time by creating columns that can be used for different sized screens. 
+
+2. Mobile first more or less means that almost everything has been redesigned to start from a lower 
+
+screen size and scale up. 
+
+3. ID’s are unique and each element can only have one ID, unlike classes which are not unique and 
+
+multiple elements can use the same class. 
+
+4. Containers wrap site content and hold the grid system while rows allow you to create more rows 
+
+within the container. 
+
+5. Each container has 12 columns it allows you to keep content on one. All grid numbers must equal to 
+
+12 in order for the elements not to overlap or end up on a different line. 
+
+6. They apply to all screen sizes. Xs being cellphones, Small being tablets and small laptops, medium 
+
+being laptops and desktops and large being large desktops. 
+
+7. The demo content will change size based on the size of the screen. 
+
+8. The small screen will create another row after the first two rows of 3 and 9 (sum of 12) are complete. 
+
+The medium sized screen will have one row as the sum is 12. 
+
+9. Clearfix solves alignment issues and can be placed in after every sum of 12. 
+
+10. .offset allows you to move grid columns to the right for alignment purpose. 
+
+11. Columns being nestable means you can insert columns and rows inside an existing column. Kind of 
+
+like Russian nesting dolls. 
+
+12. Visible and Hidden allow you to show and hide elements on different devices. 
+
+13. Fixed layouts remain the same no matter what screen size. Fluid works using a certain percent of 
+
+space on different screen sizes. Responsive layouts change automatically based on the screen size.
+            </p>
+            
+            <p> 
+            <!-- 
+            
+1.
+var userAge = prompt("Please enter your age");
+if (userAge < 4) {
+    alert("So you're a baby!");
+} else if (userAge < 0 || userAge > 200) {
+    alert("I think you may be lying about your age");
+} else {
+    alert("That's a good age");
+}
+2.
+<html>
+<body>
+    <script language=JavaScript>
+        var timesTable = 12;
+        var timesBy;
+    for (timesBy = 1; timesBy < 13; timesBy++) {
+            document.write(timesTable + " * " + timesBy + " = " + timesBy * timesTable +
+                "<br>");
+        }
+    </script>
+</body>
+</html>
+
+
+3.
+	
+<html>
+<body>
+<script language=JavaScript>
+function writeTimesTable(timesTable, timesByStart, timesByEnd)
+{
+   for (;timesByStart <= timesByEnd; timesByStart++)
+   {
+      document.write(timesTable + " * " + timesByStart + " = " +
+         timesByStart * timesTable + "<br>");
+   }
+}
+    writeTimesTable(4,4,9);
+</script>
+</body>
+</html>
+
+4.
+<html>
+<body>
+    <script language=JavaScript>
+        function writeTimesTable(timesTable, timesByStart, timesByEnd) {
+            for (; timesByStart <= timesByEnd; timesByStart++) {
+                document.write(timesTable + " * " + timesByStart + " = " +
+                    timesByStart * timesTable + "<br>");
+            }
+        }
+        var timesTable;
+        while ((timesTable = prompt("Enter the times table", -1)) != -1) {
+            while (isNaN(timesTable) == true) {
+                timesTable = prompt(timesTable + " is not a valid number, please retry", -1);
+            }
+            if (timesTable == -1) {
+                break;
+            }
+            document.write("<br>The " + timesTable + " times table<br>");
+            writeTimesTable(timesTable, 1, 12);
+        }
+    </script>
+</body>
+</html>
+    
+                
+            </p>
+-->            
+
+        </div>
+    </div>
+</div>
+</body>
+</html>
