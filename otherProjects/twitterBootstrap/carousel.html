@@ -1,106 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>Example of Bootstrap 3 Carousel</title>
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-<style type="text/css">
-    
-    
-  
-  
-    
-.carousel{
-    background: #2f4357;
-    margin-top: 20px;
-}
-.carousel .item img{
-    margin: 0 auto; /* Align slide image horizontally center */
-}
-.bs-example{
-	margin: 20px;
-}
-</style>
-</head>
-<body>
-    
-    
-      <nav role="navigation" class="navbar navbar-inverse">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-          <a href="#" class="navbar-brand">Robert Marchese</a>
-      </div>
-      <!-- Collection of nav links, forms, and other content for toggling -->
-      <div id="navbarCollapse" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-              <li class="active"><a href="../index.html">Home</a></li>
-              <li class="active"><a href="../otherProjects/codeAcademy/index.html">Code Academy Badges</a></li>
-              <li class="active"><a href="../jsQuestions/index.html">JS Questions</a></li>
-              <li class="dropdown">
-                  <a data-toggle="dropdown" class="dropdown-toggle" href="otherProjects/twitterBootstrap/index.html">Bootstrap Pages<b class="caret"></b></a>
-                  <ul role="menu" class="dropdown-menu">
-                      <li><a href="otherProjects/twitterBootstrap/carousel.html">Carousel</a></li>
-                      <li><a href="../jsQuestions/index.html">Week 2 pattern</a></li>
-                      <li><a href="../twitterBootstrap/index.html">Week 3 pattern</a></li>
-                  </ul>
-              </li>
-          </ul>
-      </div>
-  </nav>
-    
-    
-<div class="bs-example">
-    <div id="myCarousel" class="carousel slide" data-ride="carousel">
-        <!-- Carousel indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-            <li data-target="#myCarousel" data-slide-to="1"></li>
-            <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>   
-        <!-- Wrapper for carousel items -->
-        <div class="carousel-inner">
-            
-            
-            
-            <div class="item active">
-                <img src="../twitterBootstrap/images/143334232.jpg" alt="First Slide">
-                <div class="carousel-caption">
-        <h3> Kitty Cat</h3>
-        <p>This one ate too much food.</p>
-      </div>
-            </div>  
-            
-         <div class="item">
-                <img src="../twitterBootstrap/images/catmint-cat-white.jpg" alt="Second Slide">
-            <div class="carousel-caption">
-        <h3>Kitty Cats</h3>
-        <p>Kitty Cats are awesome placeholders</p>
-      </div>
-             </div>
 
-            <div class="item">
-                <img src="../twitterBootstrap/images/Funny-Cat-GIFs.jpg" alt="Third Slide">
-            
-               <div class="carousel-caption">
-        <h3>Kitty Cats</h3>
-        <p>This one is angry</p>
-      </div>
-            </div>
-            
-             
-            
-        </div>
-        <!-- Carousel controls -->
-        <a class="carousel-control left" href="#myCarousel" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left"></span>
-        </a>
-        <a class="carousel-control right" href="#myCarousel" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right"></span>
-        </a>
-    </div>
-</div>
+<head>
+	<meta charset="UTF-8">
+	<title>Example of Bootstrap 3 Carousel</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<style type="text/css">
+		.carousel {
+			background: #2f4357;
+			margin-top: 20px;
+		}
+		
+		.carousel .item img {
+			margin: 0 auto;
+			/* Align slide image horizontally center */
+		}
+		
+		.bs-example {
+			margin: 20px;
+		}
+	</style>
+</head>
+
+<body>
+
+
+	<nav role="navigation" class="navbar navbar-inverse">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+			<a href="#" class="navbar-brand">Robert Marchese</a>
+		</div>
+		<!-- Collection of nav links, forms, and other content for toggling -->
+		<div id="navbarCollapse" class="collapse navbar-collapse">
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="../index.html">Home</a></li>
+				<li class="active"><a href="../otherProjects/codeAcademy/index.html">Code Academy Badges</a></li>
+				<li class="active"><a href="../jsQuestions/index.html">JS Questions</a></li>
+				<li class="dropdown">
+					<a data-toggle="dropdown" class="dropdown-toggle" href="otherProjects/twitterBootstrap/index.html">Bootstrap Pages<b class="caret"></b></a>
+					<ul role="menu" class="dropdown-menu">
+						<li><a href="otherProjects/twitterBootstrap/carousel.html">Carousel</a></li>
+						<li><a href="../jsQuestions/index.html">Week 2 pattern</a></li>
+						<li><a href="../twitterBootstrap/index.html">Week 3 pattern</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+
+	<div class="bs-example">
+		<div id="myCarousel" class="carousel slide" data-ride="carousel">
+			<!-- Carousel indicators -->
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+			</ol>
+			<!-- Wrapper for carousel items -->
+			<div class="carousel-inner">
+
+
+
+				<div class="item active">
+					<img src="../twitterBootstrap/images/143334232.jpg" alt="First Slide">
+					<div class="carousel-caption">
+						<h3> Kitty Cat</h3>
+						<p>This one ate too much food.</p>
+					</div>
+				</div>
+
+				<div class="item">
+					<img src="../twitterBootstrap/images/catmint-cat-white.jpg" alt="Second Slide">
+					<div class="carousel-caption">
+						<h3>Kitty Cats</h3>
+						<p>Kitty Cats are awesome placeholders</p>
+					</div>
+				</div>
+
+				<div class="item">
+					<img src="../twitterBootstrap/images/Funny-Cat-GIFs.jpg" alt="Third Slide">
+
+					<div class="carousel-caption">
+						<h3>Kitty Cats</h3>
+						<p>This one is angry</p>
+					</div>
+				</div>
+
+
+
+			</div>
+			<!-- Carousel controls -->
+			<a class="carousel-control left" href="#myCarousel" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left"></span>
+			</a>
+			<a class="carousel-control right" href="#myCarousel" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right"></span>
+			</a>
+		</div>
+	</div>
 </body>
-</html>                                		
+
+</html>

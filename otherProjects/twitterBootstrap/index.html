@@ -2,163 +2,159 @@
 <html lang="en">
 
 <head>
-    <title>Example of Bootstrap 3 Responsive Navbar</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    <style type="text/css">
-        /*  nav bar margin from the top of the  */
-        
-        .navbar {
-            margin-top: 20px;
-        }
-    </style>
+	<title>Example of Bootstrap 3 Responsive Navbar</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+	<style type="text/css">
+		/*  nav bar margin from the top of the  */
+		
+		.navbar {
+			margin-top: 20px;
+		}
+	</style>
 </head>
 
 <body>
-    <div class="container">
-        <nav role="navigation" class="navbar navbar-inverse">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
+	<div class="container">
+		<nav role="navigation" class="navbar navbar-inverse">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
 
-                <!-- the following are links on the nav bar which I have used Glyphicons as nav icons -->
-                <a href="../index.html" class="navbar-brand"> Star Wars <span class="glyphicon glyphicon-certificate"></span></a>
-            </div>
-            <!-- Collection of nav links, forms, and other content for toggling -->
-            <div id="navbarCollapse" class="collapse navbar-collapse">
-                <ul class="nav navbar-nav">
-                    <li class="active"><a href="#"><span class="glyphicon glyphicon-home"> Home</span></a></li>
-                    <li><a href="#"><span class="glyphicon glyphicon-user"> Profile </span></a></li>
+				<!-- the following are links on the nav bar which I have used Glyphicons as nav icons -->
+				<a href="../index.html" class="navbar-brand"> Star Wars <span class="glyphicon glyphicon-certificate"></span></a>
+			</div>
+			<!-- Collection of nav links, forms, and other content for toggling -->
+			<div id="navbarCollapse" class="collapse navbar-collapse">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#"><span class="glyphicon glyphicon-home"> Home</span></a></li>
+					<li><a href="#"><span class="glyphicon glyphicon-user"> Profile </span></a></li>
 
-                    <!-- Messages menu with number of msgs badge as well as badge for the inbox-->
-                    <li class="dropdown">
-                        <a data-toggle="dropdown" class="dropdown-toggle" href="#"> <span class="glyphicon glyphicon-envelope" class="badge"> 24 </span> Messages <b class="caret"></b></a>
-                        <ul role="menu" class="dropdown-menu">
-                            <li>
+					<!-- Messages menu with number of msgs badge as well as badge for the inbox-->
+					<li class="dropdown">
+						<a data-toggle="dropdown" class="dropdown-toggle" href="#"> <span class="glyphicon glyphicon-envelope" class="badge"> 24 </span> Messages <b class="caret"></b></a>
+						<ul role="menu" class="dropdown-menu">
+							<li>
 
-                                <a href="#">Messages</a>
+								<a href="#">Messages</a>
 
-                            </li>
-                            <li><a href="#">Drafts</a></li>
-                            <li><a href="#">Sent Items</a></li>
-                            <li class="divider"></li>
-                            <li><a href="#">Trash
+							</li>
+							<li><a href="#">Drafts</a></li>
+							<li><a href="#">Sent Items</a></li>
+							<li class="divider"></li>
+							<li><a href="#">Trash
                              <span  class="badge"> 50 </span> 
                             
                             </a></li>
-                        </ul>
-                    </li>
-                </ul>
+						</ul>
+					</li>
+				</ul>
 
 
-            </div>
-        </nav>
-    </div>
+			</div>
+		</nav>
+	</div>
 
-    <!-- Jumbotron hidden on everyscreen except for large -->
+	<!-- Jumbotron hidden on everyscreen except for large -->
 
-    <div class="jumbotron hidden-xs hidden-sm hidden-md hidden-xl">
-        <div class="container">
-            <div class="hidden-xs hidden-sm">
-                <h1>Star Wars</h1>
-                <p>In today's world more and more people love star wars and I am one of them. You don't like star wars? Why
-                    not? Do you not like fun and adventure? .</p>
+	<div class="jumbotron hidden-xs hidden-sm hidden-md hidden-xl">
+		<div class="container">
+			<div class="hidden-xs hidden-sm">
+				<h1>Star Wars</h1>
+				<p>In today's world more and more people love star wars and I am one of them. You don't like star wars? Why not? Do you not like fun and adventure? .</p>
 
-            </div>
-        </div>
-    </div>
+			</div>
+		</div>
+	</div>
 
-    <!-- Container begins with all content inside. -->
+	<!-- Container begins with all content inside. -->
 
-    <div class="container">
-        <div class="row">
-            <!-- On a small screen there will be three columns and on a large screen 2 columns. -->
-            <div class="col-sm-4 col-md-4 col-lg-6">
-                <!-- Img of Luke Skywalker will be responsive aswell as a circle -->
-                <img class="img-responsive" src="http://www.masterskywalker.net/wp-content/uploads/2014/01/luke_anh2.jpg" alt="Luke Skywalker">
-                <p> Luke Skywalker </p>
-            </div>
-            <!-- Media object of Kylo Ren parody twitter acct-->
-            <div class="col-sm-4 col-md-4 col-lg-6">
-                <div class="media">
-                    <div class="media-top">
-                        <img src="https://pbs.twimg.com/profile_images/679075823907831809/bJjXiFwm_400x400.jpg" class="media-object img-circle" alt="Kylo Ren">
+	<div class="container">
+		<div class="row">
+			<!-- On a small screen there will be three columns and on a large screen 2 columns. -->
+			<div class="col-sm-4 col-md-4 col-lg-6">
+				<!-- Img of Luke Skywalker will be responsive aswell as a circle -->
+				<img class="img-responsive" src="http://www.masterskywalker.net/wp-content/uploads/2014/01/luke_anh2.jpg" alt="Luke Skywalker">
+				<p> Luke Skywalker </p>
+			</div>
+			<!-- Media object of Kylo Ren parody twitter acct-->
+			<div class="col-sm-4 col-md-4 col-lg-6">
+				<div class="media">
+					<div class="media-top">
+						<img src="https://pbs.twimg.com/profile_images/679075823907831809/bJjXiFwm_400x400.jpg" class="media-object img-circle" alt="Kylo Ren">
 
-                    </div>
-                    <div class="media-body">
-                        <h4 class="media-heading">Emo Kylo Ren <small><i>Posted on January 25, 2016</i></small></h4>
-                        <p>dear diary c3po told me the chances of survival on my route to school were 725 to 1 and i shouted
-                            at him to shut up am i becoming my father</p>
-                    </div>
-                </div>
-            </div>
-            <div class="clearfix visible-lg-block"></div>
+					</div>
+					<div class="media-body">
+						<h4 class="media-heading">Emo Kylo Ren <small><i>Posted on January 25, 2016</i></small></h4>
+						<p>dear diary c3po told me the chances of survival on my route to school were 725 to 1 and i shouted at him to shut up am i becoming my father</p>
+					</div>
+				</div>
+			</div>
+			<div class="clearfix visible-lg-block"></div>
 
-            <!-- Top Panel -->
-            <div class="col-sm-4 col-md-4 col-lg-6 ">
+			<!-- Top Panel -->
+			<div class="col-sm-4 col-md-4 col-lg-6 ">
 
-                <div class="panel panel-default">
-                    <div class="panel-heading">We must stop the First Order!</div>
-                    <div class="panel-body">Together we can defeat the dark side!
-                        <br> <a href="http://starwars.wikia.com/wiki/Alliance_to_Restore_the_Republic">Click here</a> to learn
-                        about the rebel alliance</div>
-                </div>
-            </div>
-            <div class="clearfix visible-sm-block"></div>
-            <div class="clearfix visible-md-block"></div>
+				<div class="panel panel-default">
+					<div class="panel-heading">We must stop the First Order!</div>
+					<div class="panel-body">Together we can defeat the dark side!
+						<br> <a href="http://starwars.wikia.com/wiki/Alliance_to_Restore_the_Republic">Click here</a> to learn about the rebel alliance</div>
+				</div>
+			</div>
+			<div class="clearfix visible-sm-block"></div>
+			<div class="clearfix visible-md-block"></div>
 
-            <!-- Rebel Funding Progress bar -->
+			<!-- Rebel Funding Progress bar -->
 
-            <div class="col-sm-4 col-md-4 col-lg-6">
-                Support the Rebel Alliance
-                <div class="progress progress-striped active">
-                    <div class="progress-bar" style="width: 100%;">
+			<div class="col-sm-4 col-md-4 col-lg-6">
+				Support the Rebel Alliance
+				<div class="progress progress-striped active">
+					<div class="progress-bar" style="width: 100%;">
 
-                        <span class="sr-only">100% Complete</span> $60,000
-                    </div>
+						<span class="sr-only">100% Complete</span> $60,000
+					</div>
 
-                    <div class="progress progress-striped active">
-                        <div class="progress-bar" style="width: 100%;">
-                            <span class="sr-only">60% Complete</span>
-                        </div>
-                    </div>
+					<div class="progress progress-striped active">
+						<div class="progress-bar" style="width: 100%;">
+							<span class="sr-only">60% Complete</span>
+						</div>
+					</div>
 
 
 
-                </div>
-            </div>
-            <div class="clearfix visible-lg-block"></div>
+				</div>
+			</div>
+			<div class="clearfix visible-lg-block"></div>
 
-            <div class="col-sm-4 col-md-4 col-lg-6 bg-danger">
-                American epic space opera franchise, centered on a film series created by George Lucas. It depicts the adventures of various
-                characters "a long time ago in a galaxy far, far away."
+			<div class="col-sm-4 col-md-4 col-lg-6 bg-danger">
+				American epic space opera franchise, centered on a film series created by George Lucas. It depicts the adventures of various characters "a long time ago in a galaxy far, far away."
 
-                <!-- Dark Side loading bar -->
-            </div>
-            <div class="col-sm-4 col-md-4 col-lg-2 bg-info">
-                How much we hate the Dark Side
-                <div class="progress progress-striped">
-                    <div class="progress-bar progress-bar-danger" style="width: 100%">
-                        100%
-                        <span class="sr-only">90% Used</span>
-                    </div>
-                </div>
+				<!-- Dark Side loading bar -->
+			</div>
+			<div class="col-sm-4 col-md-4 col-lg-2 bg-info">
+				How much we hate the Dark Side
+				<div class="progress progress-striped">
+					<div class="progress-bar progress-bar-danger" style="width: 100%">
+						100%
+						<span class="sr-only">90% Used</span>
+					</div>
+				</div>
 
 
-            </div>
-            <div class="clearfix visible-lg-block"></div>
-            <div class="clearfix visible-sm-block"></div>
-            <div class="clearfix visible-md-block"></div>
-        </div>
+			</div>
+			<div class="clearfix visible-lg-block"></div>
+			<div class="clearfix visible-sm-block"></div>
+			<div class="clearfix visible-md-block"></div>
+		</div>
 
-    </div>
+	</div>
 
 
 </body>
@@ -166,13 +162,13 @@
 <!-- Footer Panel -->
 
 <div class="panel panel-default">
-    <div class="panel-body"> <font size="3">Do you Love Star Wars?</font></div>
-    <div class="panel-footer clearfix">
-        <div class="pull-left">
-            <a href="http://rs194.pbsrc.com/albums/z315/pqsy4ka/best20smiley.gif~c200" class="btn btn-primary">Yes</a>
-            <a href="http://unclutteredwhitespaces.com/wp-content/uploads/2012/09/Sad-Stormtrooper-360x240.jpg">No</a>
-        </div>
-    </div>
+	<div class="panel-body"> <font size="3">Do you Love Star Wars?</font></div>
+	<div class="panel-footer clearfix">
+		<div class="pull-left">
+			<a href="http://rs194.pbsrc.com/albums/z315/pqsy4ka/best20smiley.gif~c200" class="btn btn-primary">Yes</a>
+			<a href="http://unclutteredwhitespaces.com/wp-content/uploads/2012/09/Sad-Stormtrooper-360x240.jpg">No</a>
+		</div>
+	</div>
 </div>
 
 </html>
