@@ -371,24 +371,79 @@ function getTriangle(){
 				$("#q2result").html(print);
 			}
 
-			$("#q2button").on("click", function () {
+			$("#q2Button").on("click", function () {
 				printFooBar();
 
 			});
 
 
 
+			function chessBoard() {
+				var size = prompt("Please enter a Number");
+				var line = '';
+				var print = "";
+				var i = 0;
+
+				for (i = 0; i < size / 2; i++) {
+					line = print + line + '# ';
+				}
+
+				for (i = 0; i < size; i++) {
+					if (i % 2 === 0) {
+						print = print + (' ' + line) + "
+						";
+					} else {
+						print = print + (line) + "
+						";
+					}
+				}
+				$("#q3result").html(print);
+			}
+
+
 			$("#q3Button").on("click", function () {
-				$("#q3result").html("Can't figure out how to make answer appear in button.");
+
+				chessBoard();
 			});
+
+
+			function countBs(bString) {
+				var count = 0;
+				for (var i = 0; i < bString.length; i++) {
+					if (bString.charAt(i) == 'B') {
+						count = (count + 1);
+					}
+				}
+				return count;
+			}
 
 
 			$("#q4Button").on("click", function () {
-				$("#q4result").html(" I tried I promise ");
+
+				var userInput = prompt("");
+				var x = countBs(userInput);
+
+				$("#q4result").html(x);
 			});
+
+			function countChar(cString, charMatch) {
+				var count = 0;
+				for (var i = 0; i < cString.length; i++) {
+					if (cString.charAt(i) == charMatch) {
+						count = (count + 1);
+					}
+				}
+				return count;
+			}
 			$("#q5Button").on("click", function () {
-				$("#q5result").html("It's really hard");
+
+				var inputOne = prompt("");
+				var inputTwo = prompt("")
+
+				var t = countChar(inputOne, inputTwo)
+				$("#q5result").html(t);
 			});
+
 			$("#q6Button").on("click", function () {
 				$("#q6result").html("Answer six!");
 			});
