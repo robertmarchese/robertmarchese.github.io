@@ -1,0 +1,54 @@
+.row {
+	background: black;
+	margin-top: 5px;
+}
+
+.nine,
+.col-md-4 {
+	height: 300px;
+	text-align: center;
+}
+
+.innerNine {
+	height: 100px;
+	text-align: center;
+}
+
+.o {
+	font-size: 100px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 100px;
+	padding-bottom: 10px;
+	color: red;
+}
+
+.x {
+	font-size: 100px;
+	text-align: center;
+	vertical-align: middle;
+	line-height: 100px;
+	padding-bottom: 10px;
+	color: blue;
+}
+
+.green {
+	color: green;
+}
+
+.allBorders {
+	border: 1px white solid;
+}
+
+.borderBottom {
+	border-bottom: 1px white solid;
+}
+
+.borderTop {
+	border-top: 1px white solid;
+}
+
+.borderLeftAndRight {
+	border-left: 1px white solid;
+	border-right: 1px white solid;
+}
