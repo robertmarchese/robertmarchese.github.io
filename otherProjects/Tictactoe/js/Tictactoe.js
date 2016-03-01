@@ -1,5 +1,6 @@
 $(document).ready(function () {
 
+	// TicTactoefdas
 	var circleOrEx = "o"; // Makes the first imput the letter O 
 	var isGameInProgress = true; // checks the game has started
 	var winningCombos = { // this determines game winners based on x and o positions
