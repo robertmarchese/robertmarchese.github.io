@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Take an Order </title>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+</head>
+
+
+
+
+<body>
+
+	<div id="container">
+		<input type="text" onfocus="Type in Adress" placeholder="Type in Adress">
+		<br/>
+		<br/>
+		<textarea name="textarea" placeholder=" Type in any special instuctions." rows="10" cols="50"></textarea>
+		<br/>
+		<br/>
+		<select name="select">
+			<option value="value1">Pepperoni</option>
+			<option value="value2" selected>Pepporoni and Mushroom</option>
+			<option value="value3">Pep, Mush and Bacon</option>
+		</select>
+		<div id="selectInfo"></div>
+		<br/>
+		<br/>
+		<input type="radio" name="size" value="male" checked=""> Small $10.50
+		<br>
+		<input type="radio" name="size" value="female"> Medium $15.00
+		<br>
+		<input type="radio" name="size" value="other"> Large $20.00
+		<br/>
+		<br/>
+		<input type="checkbox" name="method" value="Pick Up" checked=""> Pick up
+		<br>
+		<input type="checkbox" name="method" value="Delivery">Delivery
+		<br/>
+		<br/>
+		<button type="button">Place Order</button>
+		<br/>
+		<br/>
+		<div id="log">
+			<div id="logo">
+
+			</div>
+
+		</div>
+	</div>
+	<script src="js/takeAnOrder.js"></script>
+</body>
