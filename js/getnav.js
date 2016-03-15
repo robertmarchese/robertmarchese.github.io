@@ -1,4 +1,4 @@
-$.get("http//:robertmarchese.github.io/partials/nav.html", function (data) {
+$.get("http://robertmarchese.github.io/partials/nav.html", function (data) {
 
 	$(document).ready(function () {
 
