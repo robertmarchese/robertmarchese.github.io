@@ -4,6 +4,12 @@ $.get("http://robertmarchese.github.io/partials/nav.html", function (data) {
 
 		//check if this document has .container
 		$(".container").prepend(data);
+		$(".container").fadeIn();
+
+
+
+
+
 
 
 	})
