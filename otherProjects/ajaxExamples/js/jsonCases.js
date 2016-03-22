@@ -6,7 +6,7 @@ $(document).ready(function () {
 		var html = "";
 
 		$.each(data, function (index, item) {
-				html += '<div class="col-md-4 cases">' +
+				html += '<div class="col-md-4">' +
 					'<div class="caseType">' + item.type + '</div>' +
 					'<div class="caseName">' + item.name + '</div>' +
 					'<div class="caseColour">' + item.colour + '</div>' +
@@ -15,8 +15,8 @@ $(document).ready(function () {
 
 				$.each(item.comments, function (ind, i) {
 
-						html += '<div class="buyerName">' + i.username '< /div>' +
-							'<div class="buyerComment">' + i.comment '< /div>';
+						html += '<div class="buyerName">' + i.username + '</div>' +
+							'<div class="buyerComment">' + i.comment + '</div>';
 					}) // each commment
 
 				html += '</div>' + //commentcontainer
