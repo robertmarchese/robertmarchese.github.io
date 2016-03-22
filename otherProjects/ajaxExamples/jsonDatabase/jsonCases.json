@@ -1,1 +1,65 @@
-fda
+[
+	{
+		"type": "Iphone 6",
+		"name": "Tolisco",
+		"color": "brown",
+		"image": "images/iphone6.jpg",
+		"comments": [
+			{
+				"username": "MillenialMaestro41",
+				"stars": 3,
+				"comment": "Coolest Phone case evarrr"
+	}, {
+				"username": "Daphnecoolsinger12",
+				"stars": 5,
+				"comment": "Coolest Phone case evarrr"
+	}, {
+				"username": "tattedup64",
+				"stars": 4,
+				"comment": "Coolest Phone case evarrr"
+	}]
+
+
+	},
+	{
+		"type": "Samsung S6",
+		"name": "Ricochet",
+		"color": "green",
+		"image": "images/samsungs6.jpg",
+		"comments": [
+			{
+				"username": "Strangetiger",
+				"stars": 3,
+				"comment": "so cool"
+	}, {
+				"username": "Riskybusiness",
+				"stars": 5,
+				"comment": "wow so good"
+	}, {
+				"username": "Crazykat",
+				"stars": 4,
+				"comment": "pretty solid"
+	}]
+
+
+	},
+	{
+		"type": "Nexus",
+		"name": "Minot",
+		"color": "red",
+		"image": "images/nexus.jpg",
+		"comments": [
+			{
+				"username": "feelinrisky",
+				"stars": 3,
+				"comment": "its aight"
+	}, {
+				"username": "coolbeenz",
+				"stars": 5,
+				"comment": "so dope"
+	}, {
+				"username": "firedup24",
+				"stars": 4,
+				"comment": "Coolest Phone case i love it"
+	}]
+	}]
