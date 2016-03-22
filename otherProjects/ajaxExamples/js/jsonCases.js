@@ -15,8 +15,8 @@ $(document).ready(function () {
 
 				$.each(item.comments, function (ind, i) {
 
-						html += '<div class="buyerName">' + i.username < /div>' +
-						'<div class="buyerComment">' + i.comment < /div>' ;
+						html += '<div class="buyerName">' + i.username '< /div>' +
+							'<div class="buyerComment">' + i.comment '< /div>';
 
 
 
