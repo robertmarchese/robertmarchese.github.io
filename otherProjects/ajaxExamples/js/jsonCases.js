@@ -10,8 +10,19 @@ $(document).ready(function () {
 					'<div class="caseType">' + item.type + '</div>' +
 					'<div class="caseName">' + item.name + '</div>' +
 					'<div class="caseColour">' + item.colour + '</div>' +
-					'<img src="' + item.image + '"/>';
-				// do some stuff
+					'<img src="' + item.image + '"/>' +
+					'<div class= "commentsContainer">';
+
+				$.each(item.comments, function (ind, i) {
+
+						html += '<div class="buyerName">' + i.username < /div>' +
+						'<div class="buyerComment">' + i.comment < /div>' ;
+
+
+
+					}) // each commment
+
+
 
 
 
@@ -34,7 +45,7 @@ $(document).ready(function () {
 <img src=""/>
 <div class="commentsContainer">  // one per comment
 <div class="buyerName"> </div>
-<div class="buyerLocation"> </div>
+<div class="buyerComment"> </div>
 <div class="buyerStars"> </div>
 </div>
 
