@@ -3,7 +3,7 @@
 		"type": "Iphone 6",
 		"name": "Tolisco",
 		"color": "brown",
-		"image": "C:\Users\Rob\Documents\GitHub\robertmarchese.github.io\otherProjects\ajaxExamples\images/iphone6.jpg",
+		"image": "images/iphone6.jpg",
 		"comments": [
 			{
 				"username": "MillenialMaestro41",
@@ -25,7 +25,7 @@
 		"type": "Samsung S6",
 		"name": "Ricochet",
 		"color": "green",
-		"image": "C:\Users\Rob\Documents\GitHub\robertmarchese.github.io\otherProjects\ajaxExamples\images/samsungs6.jpg",
+		"image": "images/",
 		"comments": [
 			{
 				"username": "Strangetiger",
@@ -47,7 +47,7 @@
 		"type": "Nexus",
 		"name": "Minot",
 		"color": "red",
-		"image": "C:\Users\Rob\Documents\GitHub\robertmarchese.github.io\otherProjects\ajaxExamples\images/nexus.jpg",
+		"image": "images/nexus.jpg",
 		"comments": [
 			{
 				"username": "feelinrisky",
