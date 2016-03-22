@@ -3,7 +3,7 @@ $(document).ready(function () {
 	$.getJSON("jsonDatabase/jsonCases.json", function (data) {
 
 		console.dir(data);
-		var html = ""
+		var html = "http://robertmarchese.github.io/otherProjects/ajaxExamples/jsonCases.html"
 
 		$.each(data, function (index, item) {
 				html += '<div class="col-md-4 cases">' +
