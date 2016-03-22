@@ -26,7 +26,7 @@ $(document).ready(function () {
 							}
 						}
 
-						html += '</div>' + // stars div
+						html += '</div>'; // stars div
 
 
 					}) // each commment
