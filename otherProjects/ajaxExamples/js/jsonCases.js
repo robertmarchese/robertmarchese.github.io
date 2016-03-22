@@ -20,9 +20,9 @@ $(document).ready(function () {
 							'<div class="buyerStars">';
 						for (var i = 1; i <= 5; i++) {
 							if (i <= i.stars) {
-								html += 'img src="http://robertmarchese.github.io/otherProjects/ajaxExamples/images/star.png">';
+								html += 'img src="http://robertmarchese.github.io/otherProjects/ajaxExamples/images/nostar.png  ">';
 							} else {
-								html += '<img src="http://robertmarchese.github.io/otherProjects/ajaxExamples/images/nostar.png">';
+								html += '<img src="http://robertmarchese.github.io/otherProjects/ajaxExamples/images/star.png">';
 							}
 						}
 
