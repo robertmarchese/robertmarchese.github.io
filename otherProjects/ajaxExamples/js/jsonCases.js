@@ -17,13 +17,10 @@ $(document).ready(function () {
 
 						html += '<div class="buyerName">' + i.username '< /div>' +
 							'<div class="buyerComment">' + i.comment '< /div>';
-
-
-
 					}) // each commment
-				
-				html+= '</div>'+ //commentcontainer
-                html += '</div>'; // col md div
+
+				html += '</div>' + //commentcontainer
+					'</div>'; // col md div
 			}) //eachcat
 
 		$("#caseData").append(html);
