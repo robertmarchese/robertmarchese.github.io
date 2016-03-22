@@ -3,14 +3,14 @@ $(document).ready(function () {
 	$.getJSON("jsonDatabase/jsonCases.json", function (data) {
 
 		console.dir(data);
-		var html = "http://robertmarchese.github.io/otherProjects/ajaxExamples/jsonCases.html"
+		var html = ""
 
 		$.each(data, function (index, item) {
 				html += '<div class="col-md-4 cases">' +
 					'<div class="caseType">' + item.type + '</div>' +
 					'<div class="caseName">' + item.name + '</div>' +
 					'<div class="caseColour">' + item.colour + '</div>' +
-					'<img src"">' + item.image + '"/>;
+					'<img src"' + item.image + '"/>;
 					// do some stuff
 
 
