@@ -21,12 +21,9 @@ $(document).ready(function () {
 
 
 					}) // each commment
-
-
-
-
-
-				html += '</div>';
+				
+				html+= '</div>'+ //commentcontainer
+                html += '</div>'; // col md div
 			}) //eachcat
 
 		$("#caseData").append(html);
