@@ -10,7 +10,7 @@ $(document).ready(function () {
 					'<div class="caseType">' + item.type + '</div>' +
 					'<div class="caseName">' + item.name + '</div>' +
 					'<div class="caseColour">' + item.colour + '</div>' +
-					'<img src="' + item.image + '"/>' +
+					'<img class="Casesimage" src="' + item.image + '"/>' +
 					'<div class= "commentsContainer">';
 
 				$.each(item.comments, function (ind, i) {
