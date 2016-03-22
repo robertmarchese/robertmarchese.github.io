@@ -10,8 +10,8 @@ $(document).ready(function () {
 					'<div class="caseType">' + item.type + '</div>' +
 					'<div class="caseName">' + item.name + '</div>' +
 					'<div class="caseColour">' + item.colour + '</div>' +
-					'<img src"' + item.image + '"/>;
-					// do some stuff
+					'<img src"' + item.image + '"/>';
+				// do some stuff
 
 
 
