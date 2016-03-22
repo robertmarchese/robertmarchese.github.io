@@ -2,7 +2,7 @@
 	{
 		"type": "Iphone 6",
 		"name": "Tolisco",
-		"colour": "brown",
+		"colour": "Brown",
 		"image": "http://robertmarchese.github.io/otherProjects/ajaxExamples/images/iphone6.jpg",
 		"comments": [
 			{
@@ -24,7 +24,7 @@
 	{
 		"type": "Samsung S6",
 		"name": "Ricochet",
-		"colour": "green",
+		"colour": "Green",
 		"image": "http://robertmarchese.github.io/otherProjects/ajaxExamples/images/samsungs6.jpg",
 
 		"comments": [
@@ -47,7 +47,7 @@
 	{
 		"type": "Nexus",
 		"name": "Minot",
-		"colour": "red",
+		"colour": "Red",
 		"image": "http://robertmarchese.github.io/otherProjects/ajaxExamples/images/nexus.jpg",
 		"comments": [
 			{
