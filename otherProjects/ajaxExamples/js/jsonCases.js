@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-	$.getJSON("", function (data) {
+	$.getJSON("jsonDatabase/jsonCases.json", function (data) {
 
 		console.dir(data);
 
