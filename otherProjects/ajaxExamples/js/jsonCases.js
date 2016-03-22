@@ -16,10 +16,24 @@ $(document).ready(function () {
 				$.each(item.comments, function (ind, i) {
 
 						html += '<div class="buyerName">' + i.username + '</div>' +
-							'<div class="buyerComment">' + i.comment + '</div>';
+							'<div class="buyerComment">' + i.comment + '</div>' +
+							'<div class="buyerStars">';
+						for (var i = 1; i <= 5; i++) {
+							if (i <= i.stars) {
+								html += 'img src="http://robertmarchese.github.io/otherProjects/ajaxExamples/images/star.png">';
+							} else {
+								html += '<img src="robertmarchese.github.io/otherProjects/ajaxExamples/images/nostar.png">'
+							}
+						}
+
+						html += '</div>' + // stars div
+
+
 					}) // each commment
 
-				html += '</div>' + //commentcontainer
+				html +=
+
+					'</div>' + //commentcontainer
 					'</div>'; // col md div
 			}) //eachcat
 
