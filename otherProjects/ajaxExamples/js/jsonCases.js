@@ -22,7 +22,7 @@ $(document).ready(function () {
 						var numStars = Number(i.stars);
 						for (var i = 1; i <= 5; i++) {
 							if (i <= numStars) {
-								html += 'img src="http://robertmarchese.github.io/otherProjects/ajaxExamples/images/star.png">';
+								html += '<img src="http://robertmarchese.github.io/otherProjects/ajaxExamples/images/star.png">';
 							} else {
 								html += '<img src="http://robertmarchese.github.io/otherProjects/ajaxExamples/images/nostar.png">';
 							}
