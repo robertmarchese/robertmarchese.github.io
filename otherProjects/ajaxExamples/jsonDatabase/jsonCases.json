@@ -3,7 +3,7 @@
 		"type": "Iphone 6",
 		"name": "Tolisco",
 		"colour": "brown",
-		"image": "images/iphone6.jpg",
+		"image": "http://robertmarchese.github.io/otherProjects/ajaxExamples/images/iphone6.jpg",
 		"comments": [
 			{
 				"username": "MillenialMaestro41",
@@ -25,7 +25,8 @@
 		"type": "Samsung S6",
 		"name": "Ricochet",
 		"colour": "green",
-		"image": "images/",
+		"image": "http://robertmarchese.github.io/otherProjects/ajaxExamples/images/samsungs6.jpg"
+		",
 		"comments": [
 			{
 				"username": "Strangetiger",
@@ -47,7 +48,8 @@
 		"type": "Nexus",
 		"name": "Minot",
 		"colour": "red",
-		"image": "images/nexus.jpg",
+		"image": "http://robertmarchese.github.io/otherProjects/ajaxExamples/images/nexus.jpg"
+		",
 		"comments": [
 			{
 				"username": "feelinrisky",
