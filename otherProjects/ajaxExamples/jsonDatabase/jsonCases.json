@@ -2,7 +2,7 @@
 	{
 		"type": "Iphone 6",
 		"name": "Tolisco",
-		"color": "brown",
+		"colour": "brown",
 		"image": "images/iphone6.jpg",
 		"comments": [
 			{
@@ -24,7 +24,7 @@
 	{
 		"type": "Samsung S6",
 		"name": "Ricochet",
-		"color": "green",
+		"colour": "green",
 		"image": "images/",
 		"comments": [
 			{
@@ -46,7 +46,7 @@
 	{
 		"type": "Nexus",
 		"name": "Minot",
-		"color": "red",
+		"colour": "red",
 		"image": "images/nexus.jpg",
 		"comments": [
 			{
