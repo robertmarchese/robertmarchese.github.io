@@ -22,7 +22,7 @@ $(document).ready(function () {
 							if (i <= i.stars) {
 								html += 'img src="http://robertmarchese.github.io/otherProjects/ajaxExamples/images/star.png">';
 							} else {
-								html += '<img src="robertmarchese.github.io/otherProjects/ajaxExamples/images/nostar.png">'
+								html += '<img src="http://robertmarchese.github.io/otherProjects/ajaxExamples/images/nostar.png">';
 							}
 						}
 
