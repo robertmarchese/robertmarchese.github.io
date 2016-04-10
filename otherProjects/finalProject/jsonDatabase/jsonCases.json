@@ -1,0 +1,66 @@
+[
+	{
+		"type": "Iphone 6",
+		"name": "Tolisco",
+		"colour": "Brown",
+		"image": "http://robertmarchese.github.io/otherProjects/ajaxExamples/images/iphone6.jpg",
+		"comments": [
+			{
+				"username": "MillenialMaestro41",
+				"stars": 3,
+				"comment": "This case was cool but not dat cool"
+	}, {
+				"username": "Daphnecoolsinger12",
+				"stars": 5,
+				"comment": "Coolest Phone case evarrr"
+	}, {
+				"username": "tattedup64",
+				"stars": 4,
+				"comment": "This case is amazing"
+	}]
+
+
+	},
+	{
+		"type": "Samsung S6",
+		"name": "Ricochet",
+		"colour": "Green",
+		"image": "http://robertmarchese.github.io/otherProjects/ajaxExamples/images/samsungs6.jpg",
+
+		"comments": [
+			{
+				"username": "Strangetiger",
+				"stars": 3,
+				"comment": "so cool"
+	}, {
+				"username": "Riskybusiness",
+				"stars": 5,
+				"comment": "wow so good"
+	}, {
+				"username": "Crazykat",
+				"stars": 4,
+				"comment": "pretty solid"
+	}]
+
+
+	},
+	{
+		"type": "Nexus",
+		"name": "Minot",
+		"colour": "Red",
+		"image": "http://robertmarchese.github.io/otherProjects/ajaxExamples/images/nexus.jpg",
+		"comments": [
+			{
+				"username": "feelinrisky",
+				"stars": 3,
+				"comment": "its aight"
+	}, {
+				"username": "coolbeenz",
+				"stars": 5,
+				"comment": "so dope"
+	}, {
+				"username": "firedup24",
+				"stars": 4,
+				"comment": "Coolest Phone case i love it"
+	}]
+	}]
