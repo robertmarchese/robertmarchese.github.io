@@ -15,7 +15,7 @@ $(document).ready(function () {
 		})
 
 		//focus event
-		//chnages background to grey
+		//changes background to grey
 		$("input[type='text']").on("focus", function () {
 			log.append("User focussed on the input <br/>");
 			$(this).css("background-color", "grey");
@@ -23,7 +23,7 @@ $(document).ready(function () {
 		})
 
 		//blur event
-		//chnages background to whilte
+		//changes background to white
 		$("input[type='text']").on("blur", function () {
 			log.append("User moved away from the input <br/>");
 			$(this).css("background-color", "white");
