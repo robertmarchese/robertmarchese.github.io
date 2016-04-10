@@ -1,4 +1,4 @@
-$.get("http://robertmarchese.github.io/partials/footer.html", function (data) {
+$.get("http://robertmarchese.github.io/partials/footer.html", function (data) { // Grabs footer
 
 	$(document).ready(function () {
 

@@ -1,0 +1,21 @@
+.jumbotron {
+	background: #EAF9E0;
+	color: black;
+}
+
+html,
+body {
+	height: 101%;
+}
+
+body {
+	color: black;
+	background-color: white;
+	background-image: url(images/congruent_outline.png);
+	font-family: "calibri", sans-serif;
+}
+
+.container {
+	background: white;
+	height: 100%;
+}
