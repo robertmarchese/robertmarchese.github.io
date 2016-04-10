@@ -1,21 +1,44 @@
 .jumbotron {
-	background: #EAF9E0;
+	font-family: "calibri", "sans-serif";
 	color: black;
 }
 
 html,
 body {
-	background-image: url(../images/White-Texture-HD-Backgrounds-3.jpg) height: 101%;
+	height: 112%;
 }
 
+
+}
 body {
 	color: black;
 	background-color: white;
-	background-image: url(images/congruent_outline.png);
 	font-family: "calibri", sans-serif;
 }
-
 .container {
 	background: white;
 	height: 100%;
+}
+.Casesimage {
+	width: 100%;
+}
+.caseType {
+	font-size: 30px;
+	font-weight: bold;
+}
+.caseName {
+	font-size: 20px;
+	font-style: italic;
+}
+.caseColour {
+	font-size: 18px;
+}
+.buyerName {
+	background-color: white;
+	font-size: 22px;
+	font-style: normal;
+	text-decoration: underline;
+}
+.buyerComment {
+	font-size: 15px;
 }
